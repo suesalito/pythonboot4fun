@@ -10,3 +10,5 @@ print(a)
 b = 'data test sync'
 
 print(b)
+a = 1+77
+print (a)

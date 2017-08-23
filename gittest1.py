@@ -16,7 +16,7 @@ print (a)
 
 aa = 1
 
-TT = 1
+TT = "SY is pretty."
 
 
 TTTTT = SY

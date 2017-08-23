@@ -14,7 +14,7 @@ a = 1+77
 print (a)
 
 
-aa = 1
+aa = 12
 
 TT = "SY is pretty."
 

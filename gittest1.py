@@ -7,5 +7,6 @@ a = 10
 a = a+1
 
 print(a)
+b = 'data test sync'
 
-
+print(b)

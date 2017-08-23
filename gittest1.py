@@ -12,3 +12,14 @@ b = 'sync test pycharm merge again ad'
 print(b)
 a = 1+77
 print (a)
+
+
+aa = 12
+
+TT = "SY is pretty."
+
+
+TTTTT = SY
+
+
+SY = 'TEST 1234'

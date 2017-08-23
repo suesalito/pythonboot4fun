@@ -7,7 +7,7 @@ a = 10
 a = a+1
 
 print(a)
-b = 'sync test pycharm merge again add  '
+b = 'sync test pycharm merge again ad'
 
 print(b)
 a = 1+77

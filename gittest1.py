@@ -12,3 +12,6 @@ b = 'sync test pycharm merge again add  222'
 print(b)
 a = 1+77
 print (a)
+
+
+aa = 1

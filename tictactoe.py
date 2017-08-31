@@ -10,6 +10,7 @@ while(newgame==1):
 
     if newgame ==1:
         l = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
+
         def checkwin():
             if newgame == 1:
                 return False
@@ -41,12 +42,12 @@ while(newgame==1):
 
 
             if (round % 2 == 1):
-                print ('X turn please select position :')
+                print ('X turn please select position : ')
                 move = input()
                 l[int(move)-1] = 'X'
                 #print (l)
             else:
-                print('O turn please select position :')
+                print('O turn please select position : ')
                 move = input()
                 l[int(move)-1] = 'O'
                 #print (l)

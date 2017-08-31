@@ -26,7 +26,8 @@ while(newgame==1):
                     return True
                 else:
                     return False
-
+        def checkdup(i):
+            return l[i] != ' '
 
         print('|---|---|---|')
         print('| {l0} | {l1} | {l2} |'.format(l0=l[0], l1=l[1], l2=l[2]))
@@ -43,13 +44,25 @@ while(newgame==1):
 
             if (round % 2 == 1):
                 print ('X turn please select position : ')
-                move = input()
-                l[int(move)-1] = 'X'
+                while (True):
+                    move = input()
+                    #print (checkdup(int(move) - 1))
+                    if checkdup(int(move) - 1) == False:
+                        l[int(move) - 1] = 'X'
+                        break
+                    else:
+                        print('Try again, duplicate position! :')
                 #print (l)
             else:
                 print('O turn please select position : ')
-                move = input()
-                l[int(move)-1] = 'O'
+                while(True):
+                    move = input()
+                    #print(checkdup(int(move) - 1))
+                    if checkdup(int(move)-1) == False:
+                        l[int(move)-1] = 'O'
+                        break
+                    else:
+                        print('Try again, duplicate position! :')
                 #print (l)
 
             print('|---|---|---|')
